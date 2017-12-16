@@ -1,0 +1,182 @@
+html,body{
+	color: black;
+	overflow-x: hidden;
+}
+.navbar{
+	background-color: #5691bd;
+	box-shadow: none;
+	border:none;
+	border-bottom: none;
+	height: 10vh!important;
+	margin-bottom: 0;
+}
+a{
+	color: white;
+}
+.navhead{
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+}
+.jumbotron{
+	background-image:url('./../images/jumbo.jpg');
+	background-size: cover;
+	box-shadow: none;
+	color: white!important;
+	margin-bottom: 0;
+	min-height: 100vh;
+}
+.title{
+	margin: 0 auto!important;
+	text-align: center;
+}
+.about{
+	background-color: #ffc794;
+	color: black;
+}
+.projects{
+	background-color: #f0f0f1!important;
+    color:#343022!important;
+}
+
+.project-item{
+	background-color: white!important;
+	margin-left: 1vw;
+	margin-right: 1vw;
+	box-shadow: none!important;
+}
+#skills{
+	background-color: #5691bd;
+	color: white;
+}
+.pi{
+	margin-bottom: 10vh;
+}
+.logo-small {
+    color: white;
+    font-size: 50px;
+}
+.panel-footer .btn {
+    margin: 15px 0;
+    background-color: #687271;
+    color: #fff;
+}
+.contact-pad{
+	padding-top:2%;
+}
+.contact-head-pad{
+	padding-bottom: 1%;
+}
+.bg-grey{
+	background-color: #687271;
+}
+.font_white{
+	color:white;
+}
+footer{
+	overflow-y: hidden;
+}
+footer .glyphicon {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: white;
+}
+.btn-lg{
+	font-size: 20px!important;
+	-webkit-filter: drop-shadow(0px 8px 8px white);
+  -ms-filter: drop-shadow(0px 8px 8px white);
+  -o-filter: drop-shadow(0px 8px 8px white);
+  -moz-filter: drop-shadow(0px 8px 8px white);
+  filter: drop-shadow(0px 8px 8px white);
+}
+
+
+
+.typewriter h1 p{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .05em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+
+   h1{
+    font-size: 5.5vmin!important;
+   }
+   h2{
+    font-size: 4.9vmin!important;
+  }
+  h3{
+    font-size: 3.7vmin!important;
+  }
+  h4{
+    font-size: 4.2vmin!important;
+  }
+ 
+  p{
+    font-size: 3.1vmin!important;
+  }
+  .btn{
+    
+    font-size: 2.4vmin!important;
+  }
+
+  .navbar-brand{
+    font-size: 3.7vmin!important;
+  }
+  .navbar-collapse li{
+    font-size: 3.4vmin!important; 
+  }
+
+  .filters{
+    display: none;
+  }
+  .mob-filters{
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 481px) {
+    .fa-5x{
+      font-size:15vmin;
+    }
+
+    .filter-entry-type{
+    display: block;
+  }
+  .filter-entry-status{
+    display: block;
+  }
+  .testTitle,.testComments{
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+}
+@media screen and (max-width: 992px) {
+   .logout{
+  margin-left: 0;
+  }
+}
+.logout{
+  margin-left: 10px;
+}
